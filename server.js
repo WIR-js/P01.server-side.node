@@ -10,7 +10,7 @@ function onReq(req,res) {
             console.log(err.toString());
         }
         res.writeHead(200, {'Content-Type':'text/html'});
-        res.write('Habib and ali' + data + dt.myDateTime());
+        res.write('This is test page' + data + dt.myDateTime());
         res.end();
 
     });
